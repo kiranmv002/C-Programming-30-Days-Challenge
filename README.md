@@ -41,6 +41,24 @@ Concepts practiced:
 
 ---
 
+## ✅ Day 02 - Pattern Programs
+
+Programs included:
+
+- right_triangle.c  
+- pyramid.c  
+- number_triangle.c  
+- hollow_square.c  
+
+Concepts practiced:
+
+- Nested loops  
+- Pattern building logic  
+- Row and column control  
+- Space and alignment handling  
+
+---
+
 ## 🎯 Goal
 
 The goal of this challenge is to stay consistent and strengthen C programming concepts step by step.
