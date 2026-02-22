@@ -82,6 +82,7 @@ gcc perfect_number.c -o perfect
 
 ---
 
+
 ## 👨‍💻 Author
 
 Kiran  
