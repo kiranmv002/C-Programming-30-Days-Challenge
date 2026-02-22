@@ -24,7 +24,6 @@ int main() {
         printf("It is a Strong Number.\n");
     } else {
         printf("It is not a Strong Number.\n");
-    }
-
+    }
     return 0;
 }
