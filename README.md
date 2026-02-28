@@ -15,12 +15,12 @@ Each day contains separate programs with proper folder structure.
 
 ## 📁 Folder Structure
 
-C-Programming-30-Days-Challenge/
-│
-├── Day01/
-├── Day02/
-├── Day03/
-└── ...
+- C-Programming-30-Days-Challenge/
+  │
+  ├── Day01/
+  ├── Day02/
+  ├── Day03/
+  └── ...
 
 ---
 
@@ -56,6 +56,46 @@ Concepts practiced:
 - Pattern building logic  
 - Row and column control  
 - Space and alignment handling  
+
+---
+
+---
+
+## ✅ Day 03 - Array Logic Programs
+
+Programs included:
+
+- array_sum.c
+- second_largest.c
+- linear_search.c
+- reverse_array.c
+
+Concepts practiced:
+
+- Array traversal
+- Searching elements
+- Finding maximum values
+- Basic array manipulation
+- Loop-based problem solving
+
+---
+
+## ✅ Day 04 - String Programs
+
+Programs included:
+
+- string_length.c
+- string_reverse.c
+- palindrome_string.c
+- count_vowels.c
+
+Concepts practiced:
+
+- String traversal
+- Using strlen()
+- Character comparison
+- Basic string algorithms
+- Handling null terminator
 
 ---
 
