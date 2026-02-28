@@ -15,12 +15,16 @@ Each day contains separate programs with proper folder structure.
 
 ## 📁 Folder Structure
 
-- C-Programming-30-Days-Challenge/
-  │
-  ├── Day01/
-  ├── Day02/
-  ├── Day03/
-  └── ...
+C-Programming-30-Days-Challenge/
+│
+├── Day01/
+├── Day02/
+├── Day03/
+├── Day04/
+├── Day05/
+├── Day06/
+├── Day07/
+└── ...
 
 ---
 
@@ -96,6 +100,43 @@ Concepts practiced:
 - Character comparison
 - Basic string algorithms
 - Handling null terminator
+
+---
+
+## ✅ Day 05 - Pointer Practice
+
+Programs included:
+
+- swap_using_pointers.c
+- pointer_arithmetic.c
+- array_using_pointer.c
+- malloc_example.c
+
+Concepts practiced:
+
+- Passing variables by reference
+- Pointer dereferencing
+- Pointer arithmetic
+- Dynamic memory allocation
+- Understanding memory behavior
+
+---
+
+## ✅ Day 06 - Recursion Programs
+
+Programs included:
+
+- factorial_recursion.c
+- fibonacci_recursion.c
+- sum_of_digits_recursion.c
+- power_recursion.c
+
+Concepts practiced:
+
+- Base case and recursive case
+- Breaking problems into smaller subproblems
+- Function call stack understanding
+- Recursive thinking
 
 ---
 
