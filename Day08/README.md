@@ -6,7 +6,8 @@ Programs included:
 
 - stack_array.c
 - stack_display.c
-
+- queue_array.c
+- queue_display.c
 
 Concepts practiced:
 
