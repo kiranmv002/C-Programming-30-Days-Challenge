@@ -14,7 +14,7 @@ Each day contains separate programs with proper folder structure.
 ---
 
 ## 📁 Folder Structure
-
+```
 C-Programming-30-Days-Challenge/
 │
 ├── Day01/
@@ -25,7 +25,7 @@ C-Programming-30-Days-Challenge/
 ├── Day06/
 ├── Day07/
 └── ...
-
+```
 ---
 
 ## ✅ Day 01 - Number Based Programs
