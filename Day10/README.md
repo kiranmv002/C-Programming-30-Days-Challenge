@@ -10,3 +10,10 @@ Programs included:
 - display_array.c
 
 Concepts practiced:
+
+- Array traversal
+- Comparison and swapping
+- Sorting techniques
+- Algorithmic thinking
+
+Sorting algorithms are fundamental concepts used in many programming problems and interviews.
