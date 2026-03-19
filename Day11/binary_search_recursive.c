@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int binarySearch(int arr[], int low, int high, int key) {
 
     if(low > high)
@@ -34,3 +36,7 @@ int main() {
     if(result != -1)
         printf("Element found at position %d\n", result + 1);
     else
+        printf("Element not found\n");
+
+    return 0;
+}
