@@ -10,3 +10,10 @@ Programs included:
 - search_count.c
 
 Concepts practiced:
+
+- Linear search
+- Binary search (iterative and recursive)
+- Searching in sorted arrays
+- Counting occurrences of elements
+
+Searching algorithms are important for efficient data retrieval.
