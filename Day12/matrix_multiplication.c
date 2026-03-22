@@ -18,3 +18,13 @@ int main() {
             }
         }
     }
+
+    printf("Multiplication Result:\n");
+    for(int i=0;i<2;i++){
+        for(int j=0;j<2;j++)
+            printf("%d ", result[i][j]);
+        printf("\n");
+    }
+
+    return 0;
+}
