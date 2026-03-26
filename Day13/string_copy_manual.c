@@ -1,20 +1,20 @@
+#include <stdio.h>
+
 int main() {
-    int n;
+    char str1[100], str2[100];
+    int i = 0;
 
-    printf("Enter size of array: ");
-    scanf("%d", &n);
+    printf("Enter a string: ");
+    scanf("%s", str1);
 
-    int arr[n];
-
-    printf("Enter elements:\n");
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+    while(str1[i] != '\0') {
+        str2[i] = str1[i];
+        i++;
     }
 
-    printf("Reversed array:\n");
-    for(int i = n - 1; i >= 0; i--) {
-        printf("%d ", arr[i]);
-    }
+    str2[i] = '\0';
+
+    printf("Copied string: %s\n", str2);
 
     return 0;
 }
