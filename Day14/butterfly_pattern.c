@@ -19,3 +19,22 @@ int main() {
             printf("*");
 
         printf("\n");
+    }
+
+    // Lower part
+    for(int i = n; i >= 1; i--) {
+
+        for(int j = 1; j <= i; j++)
+            printf("*");
+
+        for(int space = 1; space <= 2*(n - i); space++)
+            printf(" ");
+
+        for(int j = 1; j <= i; j++)
+            printf("*");
+
+        printf("\n");
+    }
+
+    return 0;
+}
