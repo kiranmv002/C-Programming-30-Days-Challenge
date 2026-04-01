@@ -9,6 +9,11 @@ Programs included:
 - string_compare_manual.c
 - string_concatenate_manual.c
 
+Concepts practiced:
 
+- Manual string traversal
+- Character-by-character operations
+- String copying and comparison logic
+- Understanding null terminator '\0'
 
 This helps in improving deep understanding of how strings work internally in C.
