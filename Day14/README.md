@@ -9,6 +9,11 @@ Programs included:
 - butterfly_pattern.c
 - number_pyramid.c
 
+Concepts practiced:
 
+- Nested loop control
+- Space and pattern alignment
+- Symmetry in patterns
+- Combining multiple loops
 
 Pattern problems improve logical thinking and control over loops.
