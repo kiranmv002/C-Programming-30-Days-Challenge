@@ -11,5 +11,11 @@ This project is menu-driven and allows basic operations.
 - Withdraw money
 - Exit system
 
+## Concepts Used
+
+- Loops (while)
+- Switch case
+- Conditional statements
+- User input handling
 
 This project combines multiple concepts into one practical program.
