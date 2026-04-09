@@ -9,6 +9,11 @@ Programs included:
 - count_set_bits.c
 - check_power_of_two.c
 
+Concepts practiced:
 
+- Bitwise AND (&)
+- Bitwise XOR (^)
+- Bitwise shift (>>)
+- Efficient computation using bits
 
 Bitwise operations are important for optimizing solutions and are frequently asked in interviews.
