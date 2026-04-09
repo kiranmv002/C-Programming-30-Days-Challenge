@@ -16,3 +16,14 @@ int main() {
         printf("File not found.\n");
         return 1;
     }
+
+    printf("Student Records:\n");
+
+    while(fscanf(fp, "%d %s %f", &s.roll, s.name, &s.marks) != EOF) {
+        printf("%d %s %.2f\n", s.roll, s.name, s.marks);
+    }
+
+    fclose(fp);
+
+    return 0;
+}
