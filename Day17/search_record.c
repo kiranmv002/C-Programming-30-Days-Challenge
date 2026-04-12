@@ -17,3 +17,22 @@ int main() {
         printf("File not found.\n");
         return 1;
     }
+
+    printf("Enter roll number to search: ");
+    scanf("%d", &roll);
+
+    while(fscanf(fp, "%d %s %f", &s.roll, s.name, &s.marks) != EOF) {
+        if(s.roll == roll) {
+            printf("Record Found: %d %s %.2f\n", s.roll, s.name, s.marks);
+            found = 1;
+            break;
+        }
+    }
+
+    if(!found)
+        printf("Record not found.\n");
+
+    fclose(fp);
+
+    return 0;
+}
