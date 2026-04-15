@@ -14,3 +14,17 @@ int binarySearch(int arr[], int low, int high, int key) {
     else
         return binarySearch(arr, low, mid - 1, key);
 }
+
+int main() {
+    int arr[] = {2,4,6,8,10};
+    int key = 6;
+
+    int result = binarySearch(arr, 0, 4, key);
+
+    if(result != -1)
+        printf("Found at index %d\n", result);
+    else
+        printf("Not found\n");
+
+    return 0;
+}
