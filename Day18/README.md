@@ -9,3 +9,11 @@ Programs included:
 - binary_search_recursion.c
 - tower_of_hanoi.c
 
+Concepts practiced:
+
+- Recursive problem solving
+- Breaking problems into smaller parts
+- Function call stack understanding
+- Classic recursion problems
+
+These problems are important for interviews and deep understanding of recursion.
