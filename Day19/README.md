@@ -9,3 +9,11 @@ Programs included:
 - realloc_example.c
 - free_memory.c
 
+Concepts practiced:
+
+- Allocating memory dynamically
+- Difference between malloc and calloc
+- Resizing memory using realloc
+- Freeing memory using free()
+
+Dynamic memory is important for efficient memory usage and advanced data structures.
