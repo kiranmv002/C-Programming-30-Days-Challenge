@@ -14,3 +14,7 @@ Today I built a file-based Student Management System in C.
 - Structures
 - File handling (read/write/append)
 - Menu-driven program
+- Functions
+- Loops and conditionals
+
+This project combines multiple C concepts into a practical application.
