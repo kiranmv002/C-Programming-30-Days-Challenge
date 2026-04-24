@@ -8,3 +8,9 @@ Today I built a file-based Student Management System in C.
 - View all students
 - Search student by roll number
 - Data stored in file (students.txt)
+
+## Concepts Used
+
+- Structures
+- File handling (read/write/append)
+- Menu-driven program
