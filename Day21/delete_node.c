@@ -25,3 +25,28 @@ int main() {
     temp = head;
     prev = NULL;
 
+    while(temp != NULL) {
+        if(temp->data == key) {
+            if(prev == NULL)
+                head = temp->next;
+            else
+                prev->next = temp->next;
+
+            free(temp);
+            break;
+        }
+        prev = temp;
+        temp = temp->next;
+    }
+
+    printf("After deletion:\n");
+
+    temp = head;
+    while(temp != NULL) {
+        printf("%d -> ", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL");
+
+    return 0;
+}
