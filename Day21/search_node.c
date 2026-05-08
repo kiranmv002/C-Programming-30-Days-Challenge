@@ -25,3 +25,11 @@ int main() {
         }
         temp = temp->next;
     }
+
+    if(found)
+        printf("Element found\n");
+    else
+        printf("Element not found\n");
+
+    return 0;
+}
