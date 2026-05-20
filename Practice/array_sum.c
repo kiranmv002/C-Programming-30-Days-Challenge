@@ -12,7 +12,7 @@ int main() {
         sum += arr[i];
     }
 
-    printf("Sum of array elements = %d\n", sum);
+    printf("Sum of array elements : %d\n", sum);
 
     return 0;
 }
