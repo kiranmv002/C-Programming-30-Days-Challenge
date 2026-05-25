@@ -142,6 +142,18 @@ Concepts practiced:
 
 ---
 
+
+## ✅ Day 07 - Structures and File Handling
+
+Programs included:
+
+- student_record.c
+- employee_record.c
+- write_file.c
+- read_file.c
+
+
+
 ## 🎯 Goal
 
 The goal of this challenge is to stay consistent and strengthen C programming concepts step by step.
