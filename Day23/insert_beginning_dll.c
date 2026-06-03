@@ -18,3 +18,10 @@ int main() {
 
     newNode->prev = NULL;
     newNode->next = head;
+
+    head = newNode;
+
+    printf("Node inserted at beginning.\n");
+
+    return 0;
+}
