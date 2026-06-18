@@ -28,3 +28,19 @@ void quickSort(int arr[], int low, int high) {
         quickSort(arr, pi + 1, high);
     }
 }
+
+int main() {
+
+    int arr[] = {45, 12, 89, 23, 7, 56};
+    int n = 6;
+
+    quickSort(arr, 0, n - 1);
+
+    printf("Sorted Array:\n");
+
+    for(int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
