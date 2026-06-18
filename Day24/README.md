@@ -9,3 +9,11 @@ Programs included:
 - insert_beginning_cll.c
 - count_nodes_cll.c
 
+Concepts practiced:
+
+- Circular linked list creation
+- Traversal using do-while loop
+- Insertion at beginning
+- Counting nodes in circular structure
+
+Circular linked lists are useful in scheduling systems, round-robin algorithms, and queue implementations.
