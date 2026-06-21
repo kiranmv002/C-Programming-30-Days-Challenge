@@ -19,3 +19,29 @@ void quickSort(int arr[], int low, int high) {
             }
         }
 
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        int pi = i + 1;
+
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}
+
+int main() {
+
+    int arr[] = {12, 45, 3, 89, 21};
+    int n = 5;
+
+    quickSort(arr, 0, n - 1);
+
+    printf("Descending Order:\n");
+
+    for(int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
