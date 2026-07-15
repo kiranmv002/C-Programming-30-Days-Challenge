@@ -23,8 +23,8 @@ int main() {
     initialize();
 
     insert(15);
-    insert(25);
-    insert(37);
+    insert(35);
+    insert(47);
 
     printf("Elements inserted.\n");
 
