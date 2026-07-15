@@ -10,3 +10,13 @@ int main() {
 
     printf("Enter element to search: ");
     scanf("%d", &key);
+
+    int index = key % SIZE;
+
+    if(hashTable[index] == key)
+        printf("Element Found\n");
+    else
+        printf("Element Not Found\n");
+
+    return 0;
+}
