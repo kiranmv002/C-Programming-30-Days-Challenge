@@ -11,4 +11,18 @@ int main() {
         if(visited[i])
             continue;
 
-        
+        int count = 1;
+
+        for(int j = i + 1; j < n; j++) {
+
+            if(arr[i] == arr[j]) {
+                count++;
+                visited[j] = 1;
+            }
+        }
+
+        printf("%d occurs %d times\n", arr[i], count);
+    }
+
+    return 0;
+}
