@@ -1,0 +1,3 @@
+101,C Programming,Dennis Ritchie
+102,Data Structures,Seymour Lipschutz
+103,Operating Systems,Galvin
