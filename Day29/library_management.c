@@ -1,4 +1,4 @@
--#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 struct Book {
@@ -82,3 +82,43 @@ void searchBook() {
     fclose(fp);
 }
 
+int main() {
+
+    int choice;
+
+    while(1) {
+
+        printf("\n===== Library Management System =====\n");
+        printf("1. Add Book\n");
+        printf("2. View Books\n");
+        printf("3. Search Book\n");
+        printf("4. Exit\n");
+
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch(choice) {
+
+            case 1:
+                addBook();
+                break;
+
+            case 2:
+                viewBooks();
+                break;
+
+            case 3:
+                searchBook();
+                break;
+
+            case 4:
+                printf("Thank You!\n");
+                exit(0);
+
+            default:
+                printf("Invalid choice!\n");
+        }
+    }
+
+    return 0;
+}
