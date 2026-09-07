@@ -1,3 +1,4 @@
+//LInear Search
 int main() {
     int n, key, found = 0;
 
