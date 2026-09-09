@@ -17,9 +17,6 @@ Today I built a simple Library Management System in C.
 ## Concepts Practiced
 
 - Structures
-- Functions
-- File Handling
-- Menu Driven Programming
-- Searching Records
+- Function
 
 This project demonstrates how multiple C concepts can be combined to build a practical application.
