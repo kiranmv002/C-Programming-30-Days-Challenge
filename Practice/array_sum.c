@@ -1,4 +1,5 @@
-//array
+
+
 int main() {
     int n, sum = 0;
 
