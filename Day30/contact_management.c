@@ -95,3 +95,44 @@ void searchContact() {
 
     fclose(fp);
 }
+
+void deleteContact() {
+    FILE *fp = fopen("contacts.txt", "r");
+    FILE *temp = fopen("temp.txt", "w");
+
+    struct Contact c;
+    int id;
+    int found = 0;
+
+    if (fp == NULL || temp == NULL) {
+        printf("Unable to open file.\n");
+        return;
+    }
+
+    printf("Enter Contact ID to delete: ");
+    scanf("%d", &id);
+
+    while (fscanf(fp, "%d|%49[^|]|%19[^|]|%49[^\n]\n",
+                  &c.id, c.name, c.phone, c.email) == 4) {
+
+        if (c.id == id) {
+            found = 1;
+            continue;
+        }
+
+        fprintf(temp, "%d|%s|%s|%s\n",
+                c.id, c.name, c.phone, c.email);
+    }
+
+    fclose(fp);
+    fclose(temp);
+
+    remove("contacts.txt");
+    rename("temp.txt", "contacts.txt");
+
+    if (found)
+        printf("Contact deleted successfully.\n");
+    else
+        printf("Contact not found.\n");
+}
+}
