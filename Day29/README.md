@@ -18,5 +18,9 @@ Today I built a simple Library Management System in C.
 
 - Structures
 - Functions
+- File Handling
+- Menu Driven Programming
+- Searching Records
+
 
 This project demonstrates how multiple C concepts can be combined to build a practical application.
