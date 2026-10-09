@@ -40,6 +40,8 @@ C-Programming-30-Days-Challenge/
 ├── Day21/
 ├── Day22/
 ├── Day23/
+├── Day24/
+├── Day25/
 └── ...
 ```
 ---
