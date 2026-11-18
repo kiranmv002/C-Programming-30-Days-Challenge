@@ -1,5 +1,5 @@
 
-#define SIZE 5
+#define SIZE 6
 
 int queue[SIZE];
 int front = -1;
