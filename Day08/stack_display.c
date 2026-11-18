@@ -1,6 +1,6 @@
 #define SIZE 5
 
-int stack[SIZE] = {10,20,30};
+int stack[SIZE] = {10,20,30,40};
 int top = 2;
 
 void display() {
