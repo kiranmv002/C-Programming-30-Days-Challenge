@@ -2,8 +2,8 @@
 
 int main() {
 
-    int arr[] = {15, 8, 22, 4, 19};
-    int n = 5;
+    int arr[] = {15, 8, 22, 4, 19, 25};
+    int n = 6;
 
     for(int i = 0; i < n - 1; i++) {
         for(int j = i + 1; j < n; j++) {
