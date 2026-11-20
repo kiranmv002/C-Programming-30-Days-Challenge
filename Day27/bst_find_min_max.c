@@ -2,8 +2,8 @@
 
 int main() {
 
-    int arr[] = {50, 30, 70, 20, 40, 60, 80};
-    int n = 7;
+    int arr[] = {50, 30, 70, 20, 40, 60, 90, 80};
+    int n = 8;
 
     int min = arr[0];
     int max = arr[0];
